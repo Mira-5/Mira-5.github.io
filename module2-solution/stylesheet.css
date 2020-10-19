@@ -6,24 +6,71 @@ body {
   background-color: #FFFF99;
 }
 
-#box {
-  background-color: pink;
-  padding: 10px;
-  border: 1px solid black;
-  width: 300px;
-  height: 150px;
-  margin-top: 50px;
-  margin-left: 300px;
-  overflow: auto;
-  }
-
 h1 {
   text-align: center;
-  margin-bottom: 30px;
-  background-color: red;
+  background-color: #D3D3D3;
+  font-family: arial,  sans-serif;
+  font-size: 46px;
 }
 
-p {
-	text-align: right;
-	margin:0px;
-	background-color: gray;
+.box {
+  background-color: #D3D3D3;
+  border: 1px solid black;
+  height:200px;
+  margin-top: 50px; 
+  }
+
+  .instructions {
+  	float:left;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  }
+
+
+.recipe {
+	font-family: arial,  sans-serif;
+	margin-top:0px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+	width: 200px;
+	position: relative;
+	float:right;
+	top:-.5%;
+	right:-.25%;
+  }
+
+.p1{background-color: #C8A2C8;}
+
+.p2{background-color: #ADD8E6;}
+
+.p3{background-color: #b0f2b6;}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    margin-left:3px;
+    width: 33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .col-md-6 {
+       float: left;
+       margin-left:4%;
+       width: 44%;
+     }
+      .col-md-12 {
+     	float: left;
+     	margin-left:4%;
+        width: 92%;
+     }
+}
+
+@media (max-width: 767px) {
+    .col-s-12 {
+      float: left;
+      margin-left:4%;
+      width: 92%;
+     }
+}
+
