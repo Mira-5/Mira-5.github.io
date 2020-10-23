@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   color: rgba(34, 33, 33, 0.884);
-  background-color: #8cb3d1;
+  background-color: #98fb98;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
@@ -14,7 +14,7 @@ body {
 
 .navbar-brand h1 {
   font-family: 'Lora', serif;
-  color: #8cb3d1;
+  color: #98fb98;
   font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
